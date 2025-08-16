@@ -1,51 +1,18 @@
-<img width="379" height="296" alt="web arsivleyici v2 1 0" src="https://github.com/user-attachments/assets/a2d57f7d-e660-454b-a23a-83463782e493" /># 🌐 Web Site Arşivleyici Pro v2.1.0
 
-<div align="center">
+<img width="1039" height="827" alt="web arsiv 2" src="https://github.com/user-attachments/assets/d86a55e0-e19c-4928-b014-2d00646871ca" />
 
-![Logo](assets/logo.png)
+
+
+
+# 🌐 Web Site Arşivleyici Pro v2.1.0
 
 **Profesyonel Web Site Arşivleme ve Yedekleme Çözümü**
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Version](https://img.shields.io/badge/Version-2.1.0-orange.svg)](CHANGELOG.md)
-[![Stars](https://img.shields.io/github/stars/username/site-downloader.svg)](https://github.com/username/site-downloader/stargazers)
-[![Forks](https://img.shields.io/github/forks/username/site-downloader.svg)](https://github.com/username/site-downloader/network)
-
-</div>
-
----
-
-## 📸 Uygulama Görüntüleri
-
-### 🎨 Ana Arayüz
-<div align="center">
-<img src="<img width="379" height="296" alt="web arsivleyici v2 1 0" src="https://github.com/user-attachments/assets/a4ab4cdc-8212-4498-bf51-4853dab2d394" />
-" alt="Ana Arayüz" width="800"/>
-<p><em>Modern ve kullanıcı dostu arayüz tasarımı</em></p>
-</div>![Uploading web arsivleyici v2.1.0.png…]()
-
-
-### ⚡ 
-<div align="center">
-<img src="<img width="1039" height="827" alt="web arsiv 2" src="https://github.com/user-attachments/assets/8e1ec3e4-c874-4e74-b4fd-5f48226cf836" />
-" alt="" width="600"/>
-<p><em></em></p>
-</div>
-
-### 📊 Detaylı Raporlar
-<div align="center">
-<img src="assets/screenshots/reports.png" alt="Raporlar" width="700"/>
-<p><em>Kapsamlı indirme raporları ve analitikler</em></p>
-</div>
-
----
 
 ## 🚀 Özellikler
-
-<div align="center">
-<img src="assets/features-overview.png" alt="Özellikler Özeti" width="100%"/>
-</div>
 
 ### ✨ Yeni Özellikler v2.1.0
 - 🔒 **Gelişmiş Güvenlik Kontrolleri**: URL güvenlik doğrulaması, tehdit tarama
@@ -59,42 +26,21 @@
 - ⚡ **Performans Optimizasyonu**: Thread-safe queue ve asenkron işlemler
 
 ### 🎯 Temel Özellikler
-
-<table>
-<tr>
-<td width="50%">
-
 - 🌐 **Modern Web Tarama**: Selenium ve BeautifulSoup ile gelişmiş site tarama
 - 📁 **Akıllı Dosya Yönetimi**: Otomatik klasör yapısı ve dosya organizasyonu
 - 🔗 **Derinlik Kontrollü Tarama**: Ayarlanabilir tarama derinliği
 - ⏱️ **Gerçek Zamanlı İlerleme**: Canlı ilerleme takibi ve durum bildirimleri
-
-</td>
-<td width="50%">
-
 - 🎨 **Modern Kullanıcı Arayüzü**: Dark tema ve kullanıcı dostu tasarım
 - 📊 **Detaylı İstatistikler**: İndirilen dosya sayısı, boyut ve süre bilgileri
 - 🔄 **Paralel İndirme**: Çoklu thread ile hızlı dosya indirme
 - 💾 **Otomatik Yedekleme**: İndirme öncesi otomatik yedekleme
 
-</td>
-</tr>
-</table>
-
----
-
 ## 🛠️ Kurulum
 
-### 📋 Gereksinimler
+### Gereksinimler
 - Python 3.8 veya üzeri
 - Google Chrome tarayıcısı
 - Windows 10/11, macOS veya Linux
-
-### 🚀 Hızlı Başlangıç
-
-<div align="center">
-<img src="assets/installation-steps.png" alt="Kurulum Adımları" width="80%"/>
-</div>
 
 ### Adım 1: Repository'yi Klonlayın
 ```bash
@@ -107,12 +53,12 @@ cd site-downloader
 python -m venv venv
 ```
 
-#### Windows
+### Windows
 ```bash
 venv\Scripts\activate
 ```
 
-#### macOS/Linux
+### macOS/Linux
 ```bash
 source venv/bin/activate
 ```
@@ -127,28 +73,15 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
-
 ## 📖 Kullanım
 
 ### 🎯 Basit Kullanım
-
-<div align="center">
-<img src="assets/usage-guide.gif" alt="Kullanım Rehberi" width="80%"/>
-<p><em>Adım adım kullanım rehberi</em></p>
-</div>
-
 1. **URL Girin**: Arşivlemek istediğiniz web sitesinin URL'sini girin
 2. **Klasör Seçin**: İndirilen dosyaların kaydedileceği klasörü seçin
 3. **Ayarları Yapın**: Tarama derinliği ve gecikme süresini ayarlayın
 4. **Başlatın**: "Arşivlemeyi Başlat" butonuna tıklayın
 
 ### ⚙️ Gelişmiş Ayarlar
-
-<div align="center">
-<img src="assets/advanced-settings.png" alt="Gelişmiş Ayarlar" width="600"/>
-</div>
-
 - **Tarama Derinliği**: 1-10 arası (varsayılan: 2)
 - **Gecikme Süresi**: 0-60 saniye arası (varsayılan: 2s)
 - **Dosya Türleri**: HTML, CSS, JS, resimler, PDF'ler
@@ -156,24 +89,13 @@ python main.py
 - **Thread Sayısı**: 1-20 arası paralel işlem
 
 ### 🔒 Güvenlik Özellikleri
-
-<div align="center">
-<img src="assets/security-features.png" alt="Güvenlik Özellikleri" width="70%"/>
-</div>
-
 - URL güvenlik doğrulaması
 - Şüpheli domain engelleme
 - Güvenli dosya türü kontrolü
 - SSL sertifika doğrulaması
 - Tehdit içerik tarama
 
----
-
 ## 🏗️ Proje Yapısı
-
-<div align="center">
-<img src="assets/project-structure.png" alt="Proje Yapısı" width="60%"/>
-</div>
 
 ```
 site-downloader/
@@ -186,26 +108,15 @@ site-downloader/
 ├── 📁 README.md            # Bu dosya
 ├── 📁 CHANGELOG.md         # Değişiklik geçmişi
 ├── 📁 LICENSE              # Lisans dosyası
-├── 📁 assets/              # Görseller ve medya dosyaları
-│   ├── 📁 screenshots/     # Uygulama ekran görüntüleri
-│   ├── 📁 logo.png         # Proje logosu
-│   └── 📁 *.png            # Çeşitli görseller
 ├── 📁 logs/                # Log dosyaları
 ├── 📁 downloads/           # İndirilen dosyalar
 ├── 📁 backups/             # Yedek dosyalar
 └── 📁 cache/               # Cache dosyaları
 ```
 
----
-
 ## 🔧 Konfigürasyon
 
 ### Temel Ayarlar
-
-<div align="center">
-<img src="assets/configuration.png" alt="Konfigürasyon" width="50%"/>
-</div>
-
 ```json
 {
   "download": {
@@ -233,40 +144,20 @@ site-downloader/
 - **Rate Limiting**: Sunucu yükünü azaltmak için hız sınırlama
 - **Otomatik Temizlik**: Eski dosyaların otomatik temizlenmesi
 
----
-
 ## 📊 Performans
 
-### 🚀 Optimizasyonlar
-
-<div align="center">
-<img src="assets/performance-chart.png" alt="Performans Grafikleri" width="80%"/>
-</div>
-
+### Optimizasyonlar
 - **Thread-Safe Queue**: Güvenli çoklu thread işlemleri
 - **Asenkron Dosya İşleme**: Paralel dosya işleme
 - **Akıllı Cache**: Otomatik cache yönetimi
 - **Bellek Optimizasyonu**: Verimli bellek kullanımı
 
-### 📈 Benchmark Sonuçları
-
-<div align="center">
-<img src="assets/benchmark-results.png" alt="Benchmark Sonuçları" width="70%"/>
-</div>
-
-| Site Boyutu | Sayfa Sayısı | Ortalama Süre | Performans |
-|------------|-------------|---------------|------------|
-| Küçük      | 10 sayfa    | ~30 saniye    | ⚡⚡⚡⚡⚡ |
-| Orta       | 50 sayfa    | ~2-3 dakika  | ⚡⚡⚡⚡   |
-| Büyük      | 100 sayfa   | ~5-8 dakika  | ⚡⚡⚡     |
-
----
+### Benchmark Sonuçları
+- **Küçük Site (10 sayfa)**: ~30 saniye
+- **Orta Site (50 sayfa)**: ~2-3 dakika
+- **Büyük Site (100 sayfa)**: ~5-8 dakika
 
 ## 🚨 Sorun Giderme
-
-<div align="center">
-<img src="assets/troubleshooting.png" alt="Sorun Giderme" width="60%"/>
-</div>
 
 ### Yaygın Sorunlar
 
@@ -299,13 +190,7 @@ chmod 755 logs/
 - **Site Raporları**: `downloads/[domain]/site_report.json`
 - **Hata Detayları**: Log dosyalarında `ERROR` seviyesinde
 
----
-
 ## 🤝 Katkıda Bulunma
-
-<div align="center">
-<img src="assets/contributing.png" alt="Katkıda Bulunma" width="70%"/>
-</div>
 
 ### Geliştirme Ortamı Kurulumu
 1. Repository'yi fork edin
@@ -320,8 +205,6 @@ chmod 755 logs/
 - Type hints ekleyin
 - Unit testler yazın
 - Dokümantasyon güncelleyin
-
----
 
 ## 📝 Changelog
 
@@ -339,30 +222,16 @@ chmod 755 logs/
 - ⚡ Paralel dosya indirme
 - 📊 Gerçek zamanlı ilerleme takibi
 
----
-
 ## 📄 Lisans
 
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
----
+## 👥 Geliştirici 
 
-## 👥 Geliştirici Team
+- **Ana Geliştirici**: [Semih](akersemih07@gmail.com)
 
-<div align="center">
-<img src="assets/developer-avatar.png" alt="Geliştirici" width="150" style="border-radius: 50%"/>
-
-**Ana Geliştirici**: [Semih](mailto:akersemih07@gmail.com)
-
-</div>
-
----
 
 ## 🙏 Teşekkürler
-
-<div align="center">
-<img src="assets/acknowledgments.png" alt="Teşekkürler" width="80%"/>
-</div>
 
 - [Selenium](https://selenium.dev/) - Web otomasyon
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) - HTML parsing
@@ -373,23 +242,10 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 ## ⭐ Projeyi Beğendiyseniz
 
-<div align="center">
-<img src="assets/star-banner.png" alt="Star Banner" width="100%"/>
-
 Bu projeyi beğendiyseniz, GitHub'da ⭐ vermeyi unutmayın! Bu, projeyi geliştirmeye devam etmemiz için büyük motivasyon sağlar.
-
-[![GitHub stars](https://img.shields.io/github/stars/username/site-downloader.svg?style=social&label=Star)](https://github.com/username/site-downloader)
-
-</div>
 
 ---
 
-<div align="center">
-
 **Web Site Arşivleyici Pro** ile web sitelerinizi güvenle arşivleyin! 🚀
-
-![Footer](assets/footer-banner.png)
-
-</div>
 
 
