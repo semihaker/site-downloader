@@ -1,0 +1,31 @@
+# Web Site Arşivleyici Pro - Gerekli Python Paketleri
+# Versiyon: 2.1.0
+
+# Harici paketler (pip ile kurulması gerekenler)
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+selenium>=4.15.0
+lxml>=4.9.0
+urllib3>=2.0.0
+psutil>=5.9.0
+pillow>=10.0.0
+aiohttp>=3.8.0
+cryptography>=41.0.0
+
+# Not: Aşağıdaki modüller Python ile birlikte gelir, pip ile kurulmalarına gerek yoktur
+# - hashlib
+# - asyncio
+# - pathlib
+# - shutil
+# - zipfile
+# - tarfile
+# - gzip
+# - concurrent.futures
+# - threading
+# - queue
+# - time
+# - logging
+# - json
+# - re
+# - datetime
+# - tkinter

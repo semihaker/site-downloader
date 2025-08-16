@@ -1,0 +1,199 @@
+{
+  "app_name": "Web Site Arşivleyici Pro",
+  "version": "2.1.0",
+  "author": "Web Site Arşivleyici Pro Team",
+  "description": "Profesyonel web site arşivleme ve yedekleme çözümü",
+  "gui": {
+    "theme": "dark",
+    "window_size": "900x800",
+    "min_window_size": "800x600",
+    "center_window": true,
+    "resizable": true,
+    "auto_save_settings": true,
+    "show_tooltips": true,
+    "language": "tr",
+    "font_size": 10,
+    "animation_enabled": true
+  },
+  "download": {
+    "default_depth": 2,
+    "default_delay": 2,
+    "default_file_types": "Tümü",
+    "max_pages": 20,
+    "max_file_size": 100,
+    "timeout": 30,
+    "retry_count": 3,
+    "follow_redirects": true,
+    "respect_robots_txt": true,
+    "download_external_resources": false,
+    "create_sitemap": true,
+    "compress_downloads": false
+  },
+  "performance": {
+    "max_threads": 5,
+    "chunk_size": 8192,
+    "buffer_size": 1048576,
+    "memory_limit": 512,
+    "enable_caching": true,
+    "cache_size": 100,
+    "cache_ttl": 3600,
+    "enable_compression": false,
+    "compression_level": 6
+  },
+  "supported_extensions": [
+    "html",
+    "htm",
+    "css",
+    "js",
+    "json",
+    "xml",
+    "jpg",
+    "jpeg",
+    "png",
+    "gif",
+    "svg",
+    "ico",
+    "webp",
+    "pdf",
+    "txt",
+    "md",
+    "csv",
+    "woff",
+    "woff2",
+    "ttf",
+    "eot",
+    "mp3",
+    "mp4",
+    "avi",
+    "mov",
+    "wmv",
+    "zip",
+    "rar",
+    "7z",
+    "tar",
+    "gz",
+    "doc",
+    "docx",
+    "xls",
+    "xlsx",
+    "ppt",
+    "pptx"
+  ],
+  "user_agents": [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  ],
+  "chrome": {
+    "headless": true,
+    "no_sandbox": true,
+    "disable_dev_shm_usage": true,
+    "disable_gpu": true,
+    "window_size": "1920,1080",
+    "page_load_timeout": 60,
+    "implicit_wait": 10,
+    "disable_images": false,
+    "disable_javascript": false,
+    "disable_css": false,
+    "user_data_dir": null,
+    "profile_directory": null
+  },
+  "logging": {
+    "level": "INFO",
+    "max_log_size": 10,
+    "backup_count": 5,
+    "format": "[%(asctime)s] %(levelname)s: %(message)s",
+    "date_format": "%Y-%m-%d %H:%M:%S",
+    "log_to_file": true,
+    "log_to_console": true,
+    "log_directory": "logs",
+    "enable_debug_logging": false
+  },
+  "security": {
+    "max_url_length": 2048,
+    "allowed_protocols": [
+      "http",
+      "https"
+    ],
+    "blocked_domains": [],
+    "rate_limit": {
+      "requests_per_second": 2,
+      "max_concurrent": 5
+    },
+    "enable_ssl_verification": true,
+    "block_suspicious_urls": true,
+    "max_file_size_limit": true,
+    "scan_for_threats": true,
+    "allowed_file_types": [
+      "html",
+      "css",
+      "js",
+      "jpg",
+      "png",
+      "gif",
+      "pdf"
+    ],
+    "blocked_file_types": [
+      "exe",
+      "bat",
+      "cmd",
+      "scr",
+      "pif",
+      "com"
+    ]
+  },
+  "advanced": {
+    "enable_metadata_extraction": true,
+    "create_backup_before_download": true,
+    "enable_file_validation": true,
+    "enable_duplicate_detection": true,
+    "enable_progress_tracking": true,
+    "enable_error_recovery": true,
+    "max_retry_attempts": 3,
+    "retry_delay": 5,
+    "enable_auto_cleanup": true,
+    "cleanup_old_files_after_days": 30
+  },
+  "notifications": {
+    "enable_desktop_notifications": true,
+    "enable_sound_notifications": false,
+    "notify_on_completion": true,
+    "notify_on_error": true,
+    "notify_on_warning": false,
+    "notification_duration": 5
+  },
+  "network": {
+    "connection_timeout": 30,
+    "read_timeout": 60,
+    "max_redirects": 5,
+    "enable_proxy": false,
+    "proxy_settings": {
+      "http": null,
+      "https": null,
+      "username": null,
+      "password": null
+    },
+    "enable_tor": false,
+    "tor_settings": {
+      "socks_host": "127.0.0.1",
+      "socks_port": 9050
+    }
+  },
+  "database": {
+    "enable_sqlite": true,
+    "sqlite_file": "downloads.db",
+    "enable_history_tracking": true,
+    "max_history_entries": 1000,
+    "auto_cleanup_history": true,
+    "history_cleanup_days": 90
+  },
+  "backup": {
+    "enable_auto_backup": true,
+    "backup_interval_hours": 24,
+    "max_backup_files": 10,
+    "backup_directory": "backups",
+    "compress_backups": true,
+    "backup_compression_level": 6
+  }
+}
