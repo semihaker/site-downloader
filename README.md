@@ -220,11 +220,10 @@ chmod 755 logs/
 
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakın.
 
-## 👥 Geliştirici Ekibi
+## 👥 Geliştirici 
 
-- **Ana Geliştirici**: [Adınız](mailto:email@example.com)
-- **UI/UX Tasarım**: [Tasarımcı Adı](mailto:designer@example.com)
-- **Test**: [Test Ekibi](mailto:test@example.com)
+- **Ana Geliştirici**: [Semih](akersemih07@gmail.com)
+
 
 ## 🙏 Teşekkürler
 
@@ -233,12 +232,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 - [Requests](https://requests.readthedocs.io/) - HTTP kütüphanesi
 - [Tkinter](https://docs.python.org/3/library/tkinter.html) - GUI framework
 
-## 📞 İletişim
 
-- **GitHub**: [@username](https://github.com/username)
-- **Email**: [email@example.com](mailto:email@example.com)
-- **Website**: [https://example.com](https://example.com)
-- **Issues**: [GitHub Issues](https://github.com/username/site-downloader/issues)
 
 ## ⭐ Projeyi Beğendiyseniz
 
@@ -247,3 +241,4 @@ Bu projeyi beğendiyseniz, GitHub'da ⭐ vermeyi unutmayın! Bu, projeyi gelişt
 ---
 
 **Web Site Arşivleyici Pro** ile web sitelerinizi güvenle arşivleyin! 🚀
+
